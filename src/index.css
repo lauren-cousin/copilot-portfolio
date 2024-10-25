@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the header */
+header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+/* Custom styles for the navigation menu */
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #343a40;
+  padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+}
+
+/* Custom styles for the image */
+img {
+  border-radius: 50%;
+}
+
+/* Custom styles for the About Me section */
+#about {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+}
+
+/* Custom styles for the footer */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 1rem 0;
+}
+
+/* Custom styles for the Hero Section */
+#hero {
+  background-color: #e9ecef;
+  padding: 4rem 0;
+}
+
+/* Custom styles for the Portfolio/Featured Projects */
+#portfolio {
+  background-color: #ffffff;
+  padding: 4rem 0;
+}
+
+.portfolio-item {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border: 1px solid #e9ecef;
+  border-radius: 0.5rem;
+}
+
+/* Custom styles for the Skills/Expertise */
+#skills {
+  background-color: #e9ecef;
+  padding: 4rem 0;
+}
+
+.skill-item {
+  text-align: center;
+}
+
+/* Custom styles for the Contact Information */
+#contact {
+  background-color: #ffffff;
+  padding: 4rem 0;
+}
+
+form {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border: 1px solid #e9ecef;
+  border-radius: 0.5rem;
+}
+
+/* Custom styles for the Social Media Links */
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #007bff;
+}
