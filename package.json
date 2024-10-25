@@ -1,0 +1,30 @@
+{
+  "name": "copilot-portfolio",
+  "version": "1.0.0",
+  "description": "A portfolio website made with React, Tailwind CSS, and Vite",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.0",
+    "autoprefixer": "^10.2.6",
+    "eslint": "^7.32.0",
+    "jest": "^27.0.6",
+    "postcss": "^8.3.6",
+    "prettier": "^2.3.2",
+    "tailwindcss": "^2.2.7",
+    "vite": "^2.4.4"
+  },
+  "author": "Lauren Herbert",
+  "license": "MIT"
+}
